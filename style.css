@@ -1,0 +1,1103 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    /* Header Part Start */
+    header{
+        background-image: url(IMG/background-header-.png);
+        background-size: cover;
+        height: 500px;
+        width: 600px;
+    }
+    .align{
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    a{
+        text-decoration: none;
+    }
+    .Smartphone{
+        width: 175px;
+        position: relative;
+        left: 320px;
+        top: 60px;            
+    }
+    .yourchoose{
+        width: 200px;
+        position: absolute;
+        left: 80px;
+        top: 220px;
+    }
+    .yourchoose1{
+        width: 200px;
+        position: absolute;
+        left: 80px;
+        top: 300px;
+    }
+    nav img{
+        width: 75px;
+        position: fixed;
+        position: relative;
+        left: 60px;
+        top: 15px;
+    }
+    a:not([href]):not([class]) {
+        color: inherit;
+        text-decoration: none;
+    }
+    .Home{
+        position: relative;
+        left: 180px;
+        bottom: 15px;
+        font-size: 15px;
+        color: #fff;
+        cursor: pointer;
+        text-transform: initial;
+        transition: 0.50s;
+        transition-property: all;
+        transition-duration: 0.50s;
+        transition-timing-function: ease;
+        transition-delay: 0.40s;
+        overflow: visible;
+    }
+    .Features{
+        position: relative;
+        left: 280px;
+        bottom: 40px;
+        font-size: 15px;
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+        text-transform: initial;
+        transition: 0.50s;
+        transition-property: all;
+        transition-duration: 0.50s;
+        transition-timing-function: ease;
+        transition-delay: 0.50s;
+        overflow: visible;
+    }
+    .Pricing{
+        position: relative;
+        left: 380px;
+        bottom: 65px;
+        font-size: 15px;
+        color: white;
+        cursor: pointer;
+        text-transform: initial;
+        transition: 0.50s;
+        transition-property: all;
+        transition-duration: 0.50s;
+        transition-timing-function: ease;
+        transition-delay: 0.60s;
+        overflow: visible;
+    }
+    button{
+        background-color: cyan;
+        position: relative;
+        left: 460px;
+        bottom: 94px;
+        color: gray;
+        font-size: 12px;
+        padding: 7px;
+        cursor: pointer;
+        text-transform: initial;
+        transition: 0.50s;
+        transition-property: all;
+        transition-duration: 0.50s;
+        transition-timing-function: ease;
+        transition-delay: 0.25s;
+        overflow: visible;
+    }
+    #p{
+        position: absolute;
+        left: 70px;
+        top: 350px;
+        font-size: 10px;
+    }
+    .button1{
+        padding: 7px;
+        position: relative;
+        left: 50px;
+        font-size: 12px;
+        cursor: pointer;
+        text-transform: initial;
+        transition: 0.50s;
+        transition-property: all;
+        transition-duration: 0.50s;
+        transition-timing-function: ease;
+        transition-delay: 0.25s;
+        overflow: visible;
+    }
+    .button2{
+       background-color: transparent;
+       padding: 7px;
+       position: relative;
+       left: 70px;
+       color: gray;
+       font-size: 12px;
+       cursor: pointer;
+        text-transform: initial;
+        transition: 0.50s;
+        transition-property: all;
+        transition-duration: 0.50s;
+        transition-timing-function: ease;
+        transition-delay: 0.25s;
+        overflow: visible;
+    }
+    /* Main Part Start */
+    .Service{
+        border-bottom: 4px solid cyan;
+    }
+    .Service-img{
+        position: relative;
+        left: 150px;
+        top: 150px;
+        border-bottom: 4px solid cyan;
+        width: 250px;
+    }
+    .icon1{
+        position: relative;
+        left: 40px;
+        top: 200px;
+        width: 200px;
+        cursor: pointer;
+        text-transform: initial;
+        transition: 0.50s;
+        transition-property: all;
+        transition-duration: 0.50s;
+        transition-timing-function: ease;
+        transition-delay: 0.45s;
+        overflow: visible;
+    }
+    .icon2{
+        position: relative;
+        left: 100px;
+        top: 200px;
+        width: 200px;
+        cursor: pointer;
+        text-transform: initial;
+        transition: 0.50s;
+        transition-property: all;
+        transition-duration: 0.50s;
+        transition-timing-function: ease;
+        transition-delay: 0.50s;
+        overflow: visible;
+    }
+    .icon3{
+        position: relative;
+        left: 40px;
+        top: 240px;
+        width: 200px;
+        cursor: pointer;
+        text-transform: initial;
+        transition: 0.50s;
+        transition-property: all;
+        transition-duration: 0.50s;
+        transition-timing-function: ease;
+        transition-delay: 0.55s;
+        overflow: visible;
+    }
+    .icon4{
+        position: relative;
+        left: 100px;
+        top: 240px;
+        width: 200px;
+        cursor: pointer;
+        text-transform: initial;
+        transition: 0.50s;
+        transition-property: all;
+        transition-duration: 0.50s;
+        transition-timing-function: ease;
+        transition-delay: 0.60s;
+        overflow: visible;
+    }
+    .icon-d{
+        position: relative;
+        top: 500px;
+        width: 300px;
+        height: 300px;
+    }
+    #Get{
+        position: relative;
+        left: 320px;
+        top: 220px;
+        font-size: 17px;
+    }
+    .icon-d1{
+        position: relative;
+        left: 320px;
+        top: 260px;
+        width: 250px;
+    }
+    h1{
+        position: relative;
+        top: 460px;
+        left: 160px;
+        font-size: 25px;
+    }
+    .C-p{
+        position: relative; 
+        top: 500px; 
+        left: 100px;
+        width: 400px;
+    }
+    .Teg{
+        position: relative ; 
+        top: 550px; 
+        left: 100px;
+        width: 400px; 
+    }
+    #button3{
+        background-color: cyan;
+        cursor: pointer;
+        text-transform: initial;
+        transition: 0.50s;
+        transition-property: all;
+        transition-duration: 0.50s;
+        transition-timing-function: ease;
+        transition-delay: 0.25s;
+        overflow: visible;
+    }
+    .Screen{
+        width: 250px;
+       position: relative;
+       top: 850px;
+       left: 200px;
+       cursor: pointer;
+        text-transform: initial;
+        transition: 0.50s;
+        transition-property: all;
+        transition-duration: 0.50s;
+        transition-timing-function: ease;
+        transition-delay: 0.25s;
+        overflow: visible;
+    }
+    .madeicon1{
+        position: relative;
+        top: 320px;
+        left: 100px;
+        width: 400px;
+        cursor: pointer;
+        text-transform: initial;
+        transition: 0.50s;
+        transition-property: all;
+        transition-duration: 0.50s;
+        transition-timing-function: ease;
+        transition-delay: 0.20s;
+        overflow: visible;
+    }
+    .madeicon2{
+        position: relative;
+        top: 330px;
+        left:100px;
+        width: 400px;
+        cursor: pointer;
+        text-transform: initial;
+        transition: 0.50s;
+        transition-property: all;
+        transition-duration: 0.50s;
+        transition-timing-function: ease;
+        transition-delay: 0.40s;
+        overflow: visible;
+    }
+    .madeicon3{
+        position: relative;
+        top: 650px;
+        left: 100px;
+        width: 400px;
+        cursor: pointer;
+        text-transform: initial;
+        transition: 0.50s;
+        transition-property: all;
+        transition-duration: 0.50s;
+        transition-timing-function: ease;
+        transition-delay: 0.60s;
+        overflow: visible;
+    }
+    .madeicon4{
+        position: relative;
+        top: 670px;
+        left: 100px;
+        width: 400px;
+        cursor: pointer;
+        text-transform: initial;
+        transition: 0.50s;
+        transition-property: all;
+        transition-duration: 0.50s;
+        transition-timing-function: ease;
+        transition-delay: 0.80s;
+        overflow: visible;
+    }
+    .path{
+        background-color: rgb(233, 233, 233);
+        width: 600px;
+        height: 323px;
+        position: relative;
+        top: 750px;
+    }
+    .path h2{
+        font-size: large;
+        position: relative;
+        left: 40px;
+        top: 60px;
+    }
+    .path1 li{
+        font-size: 10px;
+        position: relative;
+        left: 170px;
+        top: 530px;
+    }
+    .path1 img{
+        width: 250px;
+        position: relative;
+        left: 0px;
+        top: 550px;
+    }
+    .mid{
+        width: 150px;
+        position: relative;
+        left: 330px;
+        top: 55px;
+    }
+    .left{
+        width: 100px;
+        position: relative;
+        left: 95px;
+        top: 97px;
+    }
+    .right{
+        width: 100px;
+        position: relative;
+        left: 204px;
+        top: 97px;
+    }
+    .ipod{
+        width: 40px;
+        position: relative;
+        left: 270px;
+        bottom: 0px;
+        top: 470px;
+    }
+    #ipod-h2{
+        font-size: 12px;
+        position: relative;
+        bottom: 0px;
+        left: 245px;
+        top: 480px;
+    }
+    #ipod-p{
+        position: relative;
+        bottom: 70px;
+    }
+    #ipod-p1{
+        font-size: 9px;
+        text-align: center;
+        position: relative;
+        top: 400px;
+    }
+    #ipod-p2{
+        font-size: 8px;
+        text-align: center;
+        position: relative;
+        top: 385px;
+    }
+    .video{
+        width: 600px;
+        position: relative;
+        top: 634px;
+    }
+    #download-h1{
+        font-size: 20px;
+        position: relative;
+        top: 550px;
+        left: 120px;
+    }
+    #download-p{
+        position: relative;
+        top: 570px;
+        left: 220px;
+    }
+    .button-d{
+        position: relative;
+        top: 590px;
+        left: 240px;
+        width: 130px;
+        height: 40px;
+        cursor: pointer;
+        text-transform: initial;
+        transition: 0.50s;
+        transition-property: all;
+        transition-duration: 0.50s;
+        transition-timing-function: ease;
+        transition-delay: 0.25s;
+        overflow: visible;
+    }
+    .lorem20{
+        background-color: #223047;
+        width: 600px;
+        height: 300px;
+        position: relative;
+        top: 700px;
+    }
+    .lorem20 p{
+        font-size: 8px;
+        text-align: center;
+        color: cyan;
+        position: relative;
+        top: 100px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    /* Header Part Start */
+    header{
+        background-image: url(IMG/background-header-.png);
+        background-size: cover;
+        height: 750px;
+        width: 100%;
+    }
+    .align{
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+    .Smartphone{
+        width: 275px;
+        height: 575px;
+        position: relative;
+        left: 800px;
+        top: 202px;            
+    }
+    .yourchoose{
+        width: 350px;
+        position: absolute;
+        left: 400px;
+        top: 270px;
+    }
+    .yourchoose1{
+        width: 350px;
+        position: absolute;
+        left: 400px;
+        top: 415px;
+    }
+    nav img{
+        width: 75px;
+        position: fixed;
+        position: relative;
+        left: 100px;
+        top: 15px;
+    }
+    nav h5{
+        text-decoration: none;
+        color: #ffff;
+        float: left;
+    }
+    a:not([href]):not([class]) {
+        color: inherit;
+        text-decoration: none;
+    }
+    .Home{
+        position: fixed;
+        position: relative;
+        left: 500px;
+        bottom: 15px;
+        font-size: 15px;
+        cursor: pointer;
+        text-transform: initial;
+        transition: 0.50s;
+        transition-property: all;
+        transition-duration: 0.50s;
+        transition-timing-function: ease;
+        transition-delay: 0.40s;
+        overflow: visible;
+    }
+    .Features{
+        position: fixed;
+        position: relative;
+        left: 550px;
+        bottom: 15px;
+        font-size: 15px;
+        cursor: pointer;
+        text-transform: initial;
+        transition: 0.50s;
+        transition-property: all;
+        transition-duration: 0.50s;
+        transition-timing-function: ease;
+        transition-delay: 0.50s;
+        overflow: visible;
+    }
+    .Pricing{
+        position: fixed;
+        position: relative;
+        left: 600px;
+        bottom: 15px;
+        font-size: 15px;
+        cursor: pointer;
+        text-transform: initial;
+        transition: 0.50s;
+        transition-property: all;
+        transition-duration: 0.50s;
+        transition-timing-function: ease;
+        transition-delay: 0.60s;
+        overflow: visible;
+    }
+    button{
+        background-color: cyan;
+        position: relative;
+        left: 900px;
+        bottom: 20px;
+        border-radius: 6px;
+        width: 140px;
+        height: 35px;
+        text-decoration: none;
+        cursor: pointer;
+        overflow: visible;
+        text-transform: initial;
+        transition: 0.50s;
+        transition-property: all;
+        transition-duration: 0.50s;
+        transition-timing-function: ease;
+        transition-delay: 0.25s;
+        overflow: visible;
+    }
+    #p{
+        position: absolute;
+        left: 410px;
+        top: 500px;
+        font-size: 25px;
+    }
+    :root {
+        --primary-color: #33d2fd;
+        --secondary-color: #233148;
+    }
+    .button1{
+        display: inline-block;
+        text-decoration: none;
+        width: 165px;
+        height: 50px;
+        position: absolute;
+        left: 400px;
+        top: 600px;
+        cursor: pointer;
+        text-transform: initial;
+        transition: 0.50s;
+        transition-property: all;
+        transition-duration: 0.50s;
+        transition-timing-function: ease;
+        transition-delay: 0.25s;
+        overflow: visible;
+    }
+    .button2{
+        width: 165px;
+        height: 50px;
+        box-shadow: gray;
+        background-color: transparent;
+        position: absolute;
+        left: 600px;
+        top: 600px;
+        cursor: pointer;
+        overflow: visible;
+        text-transform: initial;
+        transition: 0.50s;
+        transition-property: all;
+        transition-duration: 0.50s;
+        transition-timing-function: ease;
+        transition-delay: 0.25s;
+        overflow: visible;
+    }
+    /* Header Part End */
+    /* Main Part Start */
+    .Service{
+        border-bottom: 4px solid cyan;
+    }
+    .Service-img{
+        position: relative;
+        left: 600px;
+        top: 215px;
+        border-bottom: 4px solid cyan;
+    }
+    .icon1{
+        position: relative;
+        left: 100px;
+        top: 466px;
+        cursor: pointer;
+        transition: 0.50s;
+        transition-property: all;
+        transition-duration: 0.50s;
+        transition-timing-function: ease;
+        transition-delay: 0.50s;
+    }
+    .icon2{
+        position: relative;
+        left: 150px;
+        top: 466px;
+        cursor: pointer;
+        transition: 0.50s;
+        transition-property: all;
+        transition-duration: 0.50s;
+        transition-timing-function: ease;
+        transition-delay: 0.60s;
+    }
+    .icon3{
+        position: relative;
+        left: 200px;
+        top: 466px;
+        cursor: pointer;
+        transition: 0.50s;
+        transition-property: all;
+        transition-duration: 0.50s;
+        transition-timing-function: ease;
+        transition-delay: 0.70s;
+    }
+    .icon4{
+        position: relative;
+        left: 250px;
+        top: 466px;
+        cursor: pointer;
+        transition: 0.50s;
+        transition-property: all;
+        transition-duration: 0.50s;
+        transition-timing-function: ease;
+        transition-delay: 0.80s;
+    }
+    .icon-d{
+        position: relative;
+        top: 880px;
+    }
+    #Get{
+        position: relative;
+        left: 970px;
+        top: 450px;
+    }
+    .icon-d1{
+        position: relative;
+        left: 970px;
+        top: 550px;
+    }
+    h1{
+        position: relative;
+        top: 800px;
+        left: 300px;
+    }
+    .C-p{
+        position: relative; 
+        top: 750px; 
+        left: 200px;
+    }
+    .Teg{
+        position: relative ; 
+        top: 700px; 
+        left: 350px; 
+    }
+    #button3{
+        background-color: cyan;
+        text-decoration: none;
+    }
+    .Screen{
+        position: relative;
+        top: 800px;
+        left: 250px;
+    }
+    :root {
+        --primary-color: #33d2fd;
+        --secondary-color: #233148;
+    }
+    .madeicon1{
+        position: relative;
+        top: 520px;
+        left: 350px;
+        cursor: pointer;
+        transition: 0.50s;
+        transition-property: all;
+        transition-duration: 0.50s;
+        transition-timing-function: ease;
+        transition-delay: 0.25s;
+    }
+    .madeicon2{
+        position: relative;
+        top: 300px;
+        left: 815px;
+        cursor: pointer;
+        transition: 0.50s;
+        transition-property: all;
+        transition-duration: 0.50s;
+        transition-timing-function: ease;
+        transition-delay: 0.25s;
+    }
+    .madeicon3{
+        position: relative;
+        top: 450px;
+        left: 240px;
+        cursor: pointer;
+        transition: 0.50s;
+        transition-property: all;
+        transition-duration: 0.50s;
+        transition-timing-function: ease;
+        transition-delay: 0.25s;
+    }
+    .madeicon4{
+        position: relative;
+        top: 450px;
+        left: 828px;
+        cursor: pointer;
+        transition: 0.50s;
+        transition-property: all;
+        transition-duration: 0.50s;
+        transition-timing-function: ease;
+        transition-delay: 0.25s;
+    }
+    .path{
+        background-color: rgb(233, 233, 233);
+        position: relative; 
+        top: 500px;
+    }
+    .path h2{
+        font-size: xx-large;
+        position: relative;
+        left: 250px;
+        top: 170px;
+    }
+    .path1 li{
+        position: relative;
+        left: 470px;
+        top: 200px;
+    }
+    .path1 img{
+        position: relative;
+        left: 100px;
+        top: 250px;
+    }
+    .mid{
+        position: relative;
+        left: 850px;
+        top: 30px;
+    }
+    .left{
+        position: relative;
+        left: 365px;
+        top: 95px;
+    }
+    .right{
+        position: relative;
+        left: 585px;
+        top: 95px;
+    }
+    .ipod{
+        width: 70px;
+        position: relative;
+        left: 700px;
+        bottom: 100px;
+    }
+    #ipod-h2{
+        font-size: x-large;
+        position: relative;
+        bottom: 80px;
+        left: 650px;
+    }
+    #ipod-p{
+        text-align: center;
+        position: relative;
+        bottom: 70px;
+    }
+    #ipod-p1{
+        text-align: center;
+        position: relative;
+        bottom: 70px;
+    }
+    #ipod-p2{
+        text-align: center;
+        position: relative;
+        bottom: 70px;
+    }
+    .video{
+        width: 100%;
+        height: 700px;
+        position: relative;
+        top: 350px;
+    }
+    #download-h1{
+        position: relative;
+        top: 400px;
+        left: 400px;
+    }
+    #download-p{
+        position: relative;
+        top: 430px;
+        left: 670px;
+    }
+    .button-d{
+        position: relative;
+        top: 450px;
+        left: 700px;
+        width: 130px;
+        height: 40px;
+        text-decoration: none;
+    }
+    .lorem20{
+        background-color: #223047;
+        width: 1520px;
+        height: 500px;
+        position: relative;
+        top: 700px;
+    }
+    .lorem20 p{
+        text-align: center;
+        color: cyan;
+        position: relative;
+        top: 170px;
+    }
+    .smart2{
+        width: 100%;
+        height: 650px;
+        background-color: rgba(211, 211, 211, 0.87);
+        position: relative;
+        top: 700px;
+    }
+    .smart2 img{
+        width: 350px;
+        position: relative;
+        top: 100px;
+        left: 330px;
+    }
+    .smart2 h2{
+        font-size: 40px;
+        position: relative;
+        bottom: 280px;
+        left: 750px;
+    }
+    .smart2 p{
+        font-size: 13px;
+        color: rgba(112, 112, 112, 0.616);
+        position: relative;
+        bottom: 250px;
+        left: 750px;
+    }
+    #playstore{
+        width: 150px;
+        position: relative;
+        top: 500px;
+        left: 750px;
+    }
+    #istore{
+        width: 150px;
+        position: relative;
+        top: 500px;
+        left: 780px;
+    }
+    #Free-app{
+        width: 200px;
+        height: 50px;
+        font-size: 16px;
+        position: relative;
+        top: 675px;
+        left: 400px;
+    }
+    #last{
+        width: 100%;
+        height: 650px;
+        position: relative;
+        top: 675px;
+    }
+    .h3{
+        font-size: 18px;
+        position: relative;
+        top: 153px;
+        left: 300px;
+    }
+    .h3-1{
+        font-size: 18px;
+        position: relative;
+        top: 0px;
+        left: 450px;
+    }
+    .h3-2{
+        font-size: 18px;
+        position: relative;
+        left: 630px;
+        top: 150px;
+    }
+    .h3-3{
+        font-size: 18px;
+        position: relative;
+        left: 800px;
+        top: 150px;  
+    }
+    .h3-4{
+        font-size: 18px;
+        position: relative;
+        left: 1000px;
+        top: 150px;  
+    }
+    #last p{
+        position: relative;
+        top: 160px;
+        left: 300px;
+    }
+    #last1 p{
+        position: relative;
+        left: 450px;
+        top: 10px;
+    }
+    #last2 p{
+        position: relative;
+        left: 630px;
+        
+    }
+    #last3 p{
+        position: relative;
+        left: 800px; 
+    }
+    #last4 P{
+        position: relative;
+        left: 1000px; 
+    }
+    #last{
+        position: relative;
+        left: 10px;
+    }
+    #last1{
+        position: relative;
+        left: 70px;
+        
+    }
+    #last2{
+        position: relative;
+        left: 110px; 
+        bottom: 260px;
+    }
+    #last3{
+        position: relative;
+        left: 180px;
+        bottom: 410px;
+    }
+    #last4{
+        position: relative;
+        left: 200px;
+        bottom: 600px;
+    }
+    .final-1{
+        font-size: xx-large;
+        position: relative;
+        left: 650px;
+        top: 400px;
+    }
+    .final p{
+        text-align: center;
+        font-size: 15px;
+        position: relative;
+        top: 420px;
+    }
+    .search button{
+       width: 200px;
+       height: 50px; 
+       position: relative;
+       top: 500px;
+       left: 500px;
+    }
+    .search-1{
+        width: 600px;
+        height: 50px;
+        position: relative;
+        top: 500px;
+        left: 400px;
+    }
+    /* Main Part End */
+    /* Footer Part Start */
+    #footer{
+        width: 100%;
+        height: 50px;
+        position: relative;
+        top: 700px;
+    }
+    .copy{
+        position: relative;
+        top: 10px;
+        left: 50px;
+        cursor: pointer;
+        text-transform: initial;
+        transition: 0.50s;
+        transition-property: all;
+        transition-duration: 0.50s;
+        transition-timing-function: ease;
+        transition-delay: 0.40s;
+        overflow: visible;
+    }
+    .facebook{
+        position: relative;
+        top: 10px;
+        left: 800px;
+        cursor: pointer;
+        text-transform: initial;
+        transition: 0.50s;
+        transition-property: all;
+        transition-duration: 0.50s;
+        transition-timing-function: ease;
+        transition-delay: 0.40s;
+        overflow: visible;
+    }
+    .twitter{
+        position: relative;
+        top: 10px;
+        left: 850px;
+        cursor: pointer;
+        text-transform: initial;
+        transition: 0.50s;
+        transition-property: all;
+        transition-duration: 0.50s;
+        transition-timing-function: ease;
+        transition-delay: 0.40s;
+        overflow: visible;
+    }
+    .dribble{
+        position: relative;
+        top: 10px;
+        left: 900px;
+        cursor: pointer;
+        text-transform: initial;
+        transition: 0.50s;
+        transition-property: all;
+        transition-duration: 0.50s;
+        transition-timing-function: ease;
+        transition-delay: 0.40s;
+        overflow: visible;
+    }
+    .google{
+        position: relative;
+        top: 10px;
+        left: 950px;
+        cursor: pointer;
+        text-transform: initial;
+        transition: 0.50s;
+        transition-property: all;
+        transition-duration: 0.50s;
+        transition-timing-function: ease;
+        transition-delay: 0.40s;
+        overflow: visible;
+    }
+    .youtube{
+        position: relative;
+        top: 10px;
+        left: 1000px;
+        cursor: pointer;
+        text-transform: initial;
+        transition: 0.50s;
+        transition-property: all;
+        transition-duration: 0.50s;
+        transition-timing-function: ease;
+        transition-delay: 0.40s;
+        overflow: visible;
+    }
+}
